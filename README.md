@@ -13,5 +13,6 @@ Overall this project of ours is being developed to help the independent artist a
 # Artist User Account
 ![artistuseraccountvideo](https://github.com/Tanmay03027/Hunting-Artist-/assets/141415173/bc66e823-ec81-41c3-9b9c-b549e1fa56aa)
 
-
+# Recruiter User Account
+![recruiteruseraccount](https://github.com/Tanmay03027/Hunting-Artist-/assets/141415173/357de534-2f70-44d4-aba1-fd5256bd5b75)
 
