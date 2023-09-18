@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.content4 h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+  
+.content4{
+    color: orangered;
+}
+
+.txt{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content4 h3{
+    color: orangered;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.txt2 p{
+    color: #fff;
+    font-size: 20px;
+  
+}
+
+.txt2 ul{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 40px;
+}
+

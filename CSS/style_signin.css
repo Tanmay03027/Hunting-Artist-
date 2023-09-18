@@ -1,0 +1,186 @@
+	
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+   
+}
+
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.formWraper{
+    display: flex;
+    width: 55%;
+    height: 500px;
+    background-color: transparent;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px black;
+}
+ 
+/* code for left sectin of form */
+.formDiv{
+    width: 50%;
+    padding: 8%;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    color: #fff;
+}
+.formDiv h2 {
+    color: #fff;
+    margin-top: -5px;
+    font-size: 25px;
+}
+ 
+/* code for right sectin of the registration form */
+.welcomeDiv{
+    width: 180%;
+    height: 100%;
+    padding: 10px;
+   background-color: #ff3f34;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+}  
+.welcomeDiv h2 {
+    margin-top: 150px;
+}
+
+ 
+ /* ---- code for Font Awsome social icons */
+.socialBtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:transparent;
+    margin: 5px;
+   
+    line-height: 30px;
+    box-shadow: 0px 0px 10px black;
+     
+}
+ 
+ 
+ 
+ 
+.text{
+    font-size: small;
+    color: #fff;
+}
+.orDiv {
+    width: 10%;
+    margin: 0 auto;
+    background-color: transparent;
+    position: relative;
+    top: -16px;
+    justify-content: center;
+    color: #fff;
+}
+ 
+/* code for form input fields */
+.formGroup{
+    width: 100%;
+    position: relative;
+   text-transform: lowercase !important;
+}
+.formGroup input {
+    width: 87%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    padding-left: 20px !important;
+    border-radius: 25px;
+   background-color: transparent;
+   border:  2px solid #ff3f34;
+   text-transform: lowercase !important;
+   
+}
+ 
+ 
+/* Code for Icones inside html form input */
+.formGroup i {
+    position: absolute;
+    left: 55px;
+    top: 0px;
+    color: grey;
+    font-size: smaller;
+    margin: 10px !important;
+   
+}
+
+ 
+ 
+input::placeholder {
+    position: relative;
+    left: 10px;
+}
+input:focus{
+    border-color: red;
+}
+.checkBox{
+    width: 100%;
+    margin-top: 2px;
+}
+ 
+.btn3{
+    width: 50%;
+    padding: 15px;
+    background-color: #ff3f34;
+    margin-top: 15px;
+    color: lavender;
+    border-radius: 20px;
+    border-style: none;
+}
+.btn2{
+    width: 50%;
+    padding: 15px;
+    background-color:#ff3f34;
+    margin-top: 15px;
+    color: lavender;
+    border-radius: 20px;
+    border-style: none;
+    border: 2px solid rgb(247, 243, 243);
+}
+ 
+/* CSS mouse hover efects */
+.btn3:hover,  .icon:hover{
+    background-color: #ff3f34;
+    color: whitesmoke;
+}
+.btn2:hover{
+    background-color: #fff;
+    color: black;
+}
+.btn2 a{
+    color: black;
+}
+/* making HTML registration form responsive to mobile devices */
+@media screen and (max-width: 1000px){
+    .formWraper{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 670px){
+    .formDiv{
+        width: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .welcomeDiv{
+        display: none;
+    }
+}
