@@ -1,0 +1,213 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+.container6{
+    background: #e3362c;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.container6 ul{
+    display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.container6 ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .container6 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px 10px;
+    transition: all .5s ease;
+   
+  }
+
+
+
+  /* table css */
+  .tab {
+    float: left;
+   border-radius: 5px;
+   background: #e3362c;
+    width: 15%;
+    height: 150px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #fff;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #fff;
+  }
+  /* Style the tab content */
+.tabcontent {
+float: left;
+  padding: 0px 12px;
+  
+  width: 80%;
+  border-left: none;
+  height: 500px;
+}
+.rounded{
+    
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.bo{
+    float: center;
+}
+
+
+
+/* upload section */
+.card{
+  width: 400px;
+
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.card h1{
+  font-weight: 500;
+  color: #fff;
+  margin-left: 400px;
+}
+
+.card img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border: 1px solid #fff;
+}
+
+button{
+  display: block;
+  width: 200px;
+  background: #e3362c;
+  color: #fff;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #e3362c;
+}
+
+input{
+  display: block;
+  
+}
+input[type="file"]::file-selector-button {
+  border: 2px solid #e3362c;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: #e3362c;
+  transition: 1s;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #e3362c;
+  border: 2px solid #e3362c;
+  color: #fff;
+}
+
+.input label{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 150px;
+}
+
+input{
+  margin-left: 150px;
+}
+input[type="submit"]{
+  border: 2px solid #e3362c;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: #e3362c;
+  transition: 1s;
+}
+
+input[type="submit"]:hover {
+  background-color: #e3362c;
+  border: 2px solid #e3362c;
+  color: #fff;
+}
+.cross{
+ 
+  float: right;
+  
+}
+.cross h2{
+    font-size: 40px;
+   text-align: center;
+   color: white;
+   padding-top: 40px;
+}
+.cross p{
+    font-size: 20px;
+    color: grey;
+    margin-right: 500px;
+}
+.cross form{
+    width: 1000px;
+    height: 500px;
+    border: 2px solid pink;
+    text-align: center;
+    background-color: pink;
+    border-radius: 25px;
+   
+}
+.cross button{
+  background-color: red;
+  border-color: red;
+  border-radius: 25px;
+  width: 300px;
+  height: 30px;
+  margin-left: 20px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+form .txt{
+    color: black;
+    font-size: 35px;
+    margin-right: 50px;
+}

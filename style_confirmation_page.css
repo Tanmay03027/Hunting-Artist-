@@ -1,0 +1,39 @@
+.card2{
+    color: white;
+   
+    width: 500px;
+    margin-left: 500px;
+   
+}
+.card2 h3{
+    font-size: 40px;
+   
+}
+
+.card2 h2{
+    color: grey;
+    font-size: 20px;
+}
+
+form{
+   margin-left: 50px;
+}
+form button{
+   width: 100px;
+   height: 30px;
+   border: 1px solid #ff3f34;
+   border-radius: 25px;
+   background-color: #ff3f34;
+}
+form button:hover{
+  color: white;
+  background-color: #ff3f34;
+  cursor: pointer;
+}
+
+.card2 p{
+    font-size: 15px;
+}
+.card2 p a:link{
+    color: #ff3f34;
+}
