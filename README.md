@@ -5,7 +5,8 @@ Hunting Artist is a project that aims to provide an opportunity for an artist to
 Overall this project of ours is being developed to help the independent artist as well as recruiter to get in touch directly and get access to a diverse pool of talented artists from around the city (Metro cities).
 
 # Home Page 
-![artisthomepage](https://github.com/Tanmay03027/Hunting-Artist-/assets/141415173/41a9667a-7669-46f3-960e-9d5a132a47ee)
+![artisthomepage](https://github.com/Tanmay03027/Hunting-Artist-/assets/141415173/d180fb9f-5eeb-40e4-ad2d-28f8e1ea0880)
+
 
 # Artist Page
 ![artist page](https://github.com/Tanmay03027/Hunting-Artist-/assets/141415173/e167d3e1-2e38-4b67-8b92-c01e1f6f0f00)
